@@ -1,5 +1,5 @@
 #!/bin/sh
-# xxx
+# xxxx
 set -xe
 env
 make test
