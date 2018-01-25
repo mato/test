@@ -2,4 +2,4 @@
 # xxxxxxx
 set -xe
 make test
-exit 100
+exit 101
