@@ -1,5 +1,5 @@
 #!/bin/sh
-# xxxxxxxxx
+# xxxxxxxxxx
 set -xe
 uname -a
 make test
