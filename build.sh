@@ -1,5 +1,6 @@
 #!/bin/sh
-# xxxx
+# xxxxxxxxxxxxxx
 set -xe
+uname -a
 env
 make test
