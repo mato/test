@@ -23,7 +23,9 @@ jobs:
     - uses: actions/checkout@v2
 
     # Runs a single command using the runners shell
-    - name: Run build.sh
+    - name: Run build.sh with secrets
       env:
         SECURE_TEST: ${{ secrets.SECURE_TEST }}
+      run: ./build.sh
+    - name: Run build.sh without secrets
       run: ./build.sh
