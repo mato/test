@@ -3,5 +3,6 @@
 set -xe
 env
 echo "TEST <<<${SECURE_TEST}>>>"
-echo "value value value"
+echo "TESTOTHER <<<${SECURE_OTHER}>>>"
+echo "value notvalue value somevalue value thing notthing"
 make test
