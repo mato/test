@@ -24,4 +24,6 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run build.sh
+      env:
+        SECURE_TEST: ${{ secrets.SECURE_TEST }}
       run: ./build.sh
